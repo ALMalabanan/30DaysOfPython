@@ -32,3 +32,5 @@ variable_total = num_one + num_two
 print (num_one - num_two)
 print (variable_total)
 print (num_two * num_one)
+print ('divide num1 to num2:', num_one / num_two)
+print (num_two % num_one)
