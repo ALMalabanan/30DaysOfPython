@@ -25,3 +25,10 @@ print(type(First_name),
        type(is_light_on))
 
 print('Length of First Name:', len(First_name))
+print('Length of Full Name:', len(Full_name))
+num_one = 5
+num_two = 4
+variable_total = num_one + num_two
+print (num_one - num_two)
+print (variable_total)
+print (num_two * num_one)
