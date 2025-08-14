@@ -12,17 +12,17 @@ is_true = True
 is_light_on = True
 
 
-print(First_name, Last_name, Full_name, Country, City, Age, Year, is_married, is_true, is_light_on)
-print(type(First_name),
-       type(Last_name),
-       type(Full_name),
-       type(Country),
-       type(City),
-       type(Age),
-       type(Year),
-       type(is_married),
-       type(is_true),
-       type(is_light_on))
+#print(First_name, Last_name, Full_name, Country, City, Age, Year, is_married, is_true, is_light_on)
+#print(type(First_name),
+type(Last_name),
+type(Full_name),
+type(Country),
+type(City),
+type(Age),
+type(Year),
+type(is_married),
+type(is_true),
+type(is_light_on)
 
 print('Length of First Name:', len(First_name))
 print('Length of Full Name:', len(Full_name))
@@ -33,4 +33,11 @@ print (num_one - num_two)
 print (variable_total)
 print (num_two * num_one)
 print ('divide num1 to num2:', num_one / num_two)
-print (num_two % num_one)
+Remainder = (num_two % num_one)
+Exponential = (num_one ** num_two) 
+Floor_Division = (num_one // num_two)
+area_of_circle = (3.14 * (30**2))
+circumference_of_circle = (2 * 3.14 * 30)
+print(First_name, Last_name, Country, Age)
+print('Area of Circle:', area_of_circle)
+print('Circumference of Circle:', circumference_of_circle)
