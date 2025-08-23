@@ -70,4 +70,3 @@ print(f"Total seconds lived: {seconds}")
 print("Number\t1\tN\tN^2\tN^3")  # Header
 for n in range(1, 6):
     print(f"{n}\t{1}\t{n}\t{n**2}\t{n**3}")
-
