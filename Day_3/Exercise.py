@@ -17,3 +17,12 @@ b = float(input())
 print('Enter side c: ')
 c = float(input())
 print('Perimeter of this triangle is: ', a + b + c)
+
+#Getting the length and width
+print('Enter length: ')
+length = float(input())
+print('Enter width: ')
+width = float(input())
+print('Area of this rectangle is: ', length * width)
+print('Perimeter of this rectangle is: ', 2 * (length + width))
+
