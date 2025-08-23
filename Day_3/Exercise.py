@@ -18,7 +18,7 @@ print('Enter side c: ')
 c = float(input())
 print('Perimeter of this triangle is: ', a + b + c)
 
-#Getting the length and width
+#Getting the area and perimeter of a triangle with length and width
 print('Enter length: ')
 length = float(input())
 print('Enter width: ')
