@@ -26,3 +26,23 @@ width = float(input())
 print('Area of this rectangle is: ', length * width)
 print('Perimeter of this rectangle is: ', 2 * (length + width))
 
+#Getting the radius of circle
+pi=3.14
+print('Enter radius: ')
+radius = float(input())
+print('Area of this circle is: ', pi * radius**2)
+print('Circumference of this circle is: ', 2 * pi * radius)
+
+#Calculating the slope, x-intercept and y intercept of y = 2x -2
+print('For the equation y = 2x -2')
+print('Slope (m) = 2')
+print('Y-intercept (b) = -2')
+print('X-intercept = 1')
+
+#slope is (m = y2-y1/x1-x1) Find the slope and euclidean distance between point (2,2) and point (6,10)
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+slope = (y2 - y1) / (x2 - x1)
+euclidean_distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+print('Slope (m) =', slope)
+print('Euclidean distance =', euclidean_distance)
