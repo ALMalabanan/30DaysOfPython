@@ -47,7 +47,7 @@ print(f"Is the floor division of 7 by 3 equal to the int converted value of 2.7?
 print(f"Is the type of '10' equal to the type of 10? {type('10') == type(10)}")
 
 #Check if int('9.8') is equal to 10
-print(f"Is int('9.8') equal to 10? {int('9.8') == 10}")
+print(f"Is int('9.8') equal to 10? {int(9.8) == 10}")
 
 #Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
 hours = float(input("Enter hours worked: "))
