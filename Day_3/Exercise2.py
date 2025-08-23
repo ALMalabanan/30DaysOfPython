@@ -18,3 +18,39 @@ print(f"Is 'python' longer than 'dragon'? {python_length > dragon_length}")
 
 # Use and operator to check if 'on' is found in both 'python' and 'dragon'
 print(f"Is 'on' found in both 'python' and 'dragon'? {'on' in 'python' and 'on' in 'dragon'}")
+
+#I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+print(f"Is 'jargon' found in the sentence? {'jargon' in 'I hope this course is not full of jargon.'}")
+
+#There is no 'on' in both dragon and python
+print(f"Is 'on' found in both 'dragon' and 'python'? {'on' in 'dragon' and 'on' in 'python'}")
+
+#Find the length of the text python and convert the value to float and convert it to string
+python_length_float = float(python_length)
+dragon_length_float = float(dragon_length)
+print(f"Length of 'python' as float: {python_length_float}")
+print(f"Length of 'dragon' as float: {dragon_length_float}")
+print(f"Length of 'python' as string: {str(python_length_float)}")
+print(f"Length of 'dragon' as string: {str(dragon_length_float)}")
+
+#Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+number = int(input("Enter a number to check if it's even or odd: "))
+if number % 2 == 0:
+    print(f"{number} is even.")
+else:
+    print(f"{number} is odd.")
+
+#Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+print(f"Is the floor division of 7 by 3 equal to the int converted value of 2.7? {7 // 3 == int(2.7)}")\
+
+#Check if type of '10' is equal to type of 10
+print(f"Is the type of '10' equal to the type of 10? {type('10') == type(10)}")
+
+#Check if int('9.8') is equal to 10
+print(f"Is int('9.8') equal to 10? {int('9.8') == 10}")
+
+#Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+hours = float(input("Enter hours worked: "))
+rate = float(input("Enter rate per hour: "))
+pay = hours * rate
+print(f"Total pay: {pay}")
