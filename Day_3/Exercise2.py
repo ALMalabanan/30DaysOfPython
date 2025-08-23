@@ -54,3 +54,20 @@ hours = float(input("Enter hours worked: "))
 rate = float(input("Enter rate per hour: "))
 pay = hours * rate
 print(f"Total pay: {pay}")
+
+#Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+years = float(input("Enter number of years: "))
+seconds = years * 365 * 24 * 60 * 60
+print(f"Total seconds lived: {seconds}")
+
+# Write a Python script that displays the following table 
+#1 1 1 1 1
+#2 1 2 4 8
+#3 1 3 9 27
+#4 1 4 16 64
+#5 1 5 25 125
+
+print("Number\t1\tN\tN^2\tN^3")  # Header
+for n in range(1, 6):
+    print(f"{n}\t{1}\t{n}\t{n**2}\t{n**3}")
+
