@@ -81,3 +81,25 @@ print(challenge.endswith('tion')) # False
 challenge = 'thirty\tdays\tof\tpython'
 print(challenge.expandtabs())   # 'thirty  days    of      python'
 print(challenge.expandtabs(10)) # 'thirty    days      of        python'
+
+challenge = 'thirty days of python'
+print(challenge.find('y'))  # 5
+print(challenge.find('th')) # 0
+
+challenge = 'thirty days of python'
+print(challenge.rfind('on'))  # 16
+print(challenge.rfind('th')) # 17
+
+first_name = 'Asabeneh'
+last_name = 'Yetayeh'
+age = 250
+job = 'teacher'
+country = 'Finland'
+sentence = 'I am {} {}. I am a {}. I am {} years old. I live in {}.'.format(first_name, last_name, age, job, country)
+print(sentence) # I am Asabeneh Yetayeh. I am 250 years old. I am a teacher. I live in Finland.
+
+radius = 10
+pi = 3.14
+area = pi * radius ** 2
+result = 'The area of a circle with radius {} is {}'.format(str(radius), str(area))
+print(result) # The area of a circle with radius 10 is 314
