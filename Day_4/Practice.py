@@ -39,3 +39,24 @@ print(second_letter) # y
 last_index = len(language) - 1
 last_letter = language[last_index]
 print(last_letter) # n
+
+language = 'Python'
+last_letter = language[-1]
+print(last_letter) # n
+second_last = language[-2]
+print(second_last) # o
+
+language = 'Python'
+first_three = language[0:3] # starts at zero index and up to 3 but not include 3
+print(first_three) #Pyt
+last_three = language[3:6]
+print(last_three) # hon
+# Another way
+last_three = language[-3:]
+print(last_three)   # hon
+last_three = language[3:]
+print(last_three)   # hon
+
+#Reversing
+greeting = 'Hello, World!'
+print(greeting[::-1]) # !dlroW ,olleH
