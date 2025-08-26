@@ -65,3 +65,11 @@ print(greeting[::-1]) # !dlroW ,olleH
 print(language[::2]) # Pto
 print(language[1::2]) # yhn
 
+#Capitalize First character
+challenge = 'thirty days of python'
+print(challenge.capitalize()) # 'Thirty days of python'
+
+challenge = 'thirty days of python'
+print(challenge.count('y')) # 3
+print(challenge.count('y', 7, 14)) # 1, 
+print(challenge.count('th')) # 2`
