@@ -14,7 +14,7 @@ result = first + ' ' + second + ' ' + third
 print(result) # 'Coding For All'
 
 #Declare a variable named company and assign it to an initial value "Coding For All".
-company = 'Gelonaticss'
+company = 'Gelo D Great'
 
 #Print the variable company using print().
 print(company)
@@ -27,3 +27,21 @@ print(company.upper())
 
 #Change all the characters to lowercase letters using lower() method.
 print(company.lower())
+
+#Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+
+#Cut(slice) out the first word of Company string.
+print(company[4:])
+
+# Check if Company string contains a word Gelo using the method index, find or other methods.
+print(company.find("Great"))
+print(company.index("Great"))
+
+#Replace the word Great in the string 'Gelo D Great' to Python.
+print(company.replace("Great", "Python"))
+
+#Change d to is using the replace method or other methods.
+print(company.replace("D", "is"))
