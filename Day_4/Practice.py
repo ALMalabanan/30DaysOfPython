@@ -60,3 +60,8 @@ print(last_three)   # hon
 #Reversing
 greeting = 'Hello, World!'
 print(greeting[::-1]) # !dlroW ,olleH
+
+#Skipping Characters
+print(language[::2]) # Pto
+print(language[1::2]) # yhn
+
