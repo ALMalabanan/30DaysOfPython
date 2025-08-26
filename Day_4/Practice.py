@@ -73,3 +73,11 @@ challenge = 'thirty days of python'
 print(challenge.count('y')) # 3
 print(challenge.count('y', 7, 14)) # 1, 
 print(challenge.count('th')) # 2`
+
+challenge = 'thirty days of python'
+print(challenge.endswith('on'))   # True
+print(challenge.endswith('tion')) # False
+
+challenge = 'thirty\tdays\tof\tpython'
+print(challenge.expandtabs())   # 'thirty  days    of      python'
+print(challenge.expandtabs(10)) # 'thirty    days      of        python'
