@@ -22,3 +22,8 @@ print(string[10])
 string = 'Python For Everyone'
 acronym = ''.join(word[0] for word in string.split())
 print(acronym)
+
+#Create an acronym or an abbreviation for the name 'Coding For All'.
+string = 'Coding For All'
+acronym = ''.join(word[0] for word in string.split())
+print(acronym)
