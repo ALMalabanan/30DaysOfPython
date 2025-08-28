@@ -81,6 +81,20 @@ print(" # ".join(libraries))
 print("I am enjoying this challenge.\nI just wonder what is next.")
 
 # Use tab escape sequence to separate the following sentences. 'Name      Age     Country   City
-#Asabeneh  250     Finland   Helsinki'
+# Asabeneh  250     Finland   Helsinki'
 print("Name\tAge\tCountry\tCity")
 print("Asabeneh\t250\tFinland\tHelsinki")
+
+# Use the string formatting method to display the following: 'radius = 10 area = 3.14 * radius ** 2 The area of a circle with radius 10 is 314 meters square.'
+radius = 10
+area = 3.14 * radius ** 2
+print(f"The area of a circle with radius {radius} is {area} meters square.")
+
+#Make the following using string formatting methods: '8 + 6 = 14'
+print(f"8 + 6 = {8 + 6}")
+print(f"8 - 6 = {8 - 6}")
+print(f"8 * 6 = {8 * 6}")
+print(f"8 / 6 = {8 / 6}")
+print(f"8 % 6 = {8 % 6}")
+print(f"8 // 6 = {8 // 6}")
+print(f"8 ** 6 = {8 ** 6}")
