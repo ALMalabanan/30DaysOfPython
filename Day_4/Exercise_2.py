@@ -71,3 +71,16 @@ print(string.strip())
 #thirty_days_of_python
 print("30DaysOfPython".isidentifier())
 print("thirty_days_of_python".isidentifier())
+
+#The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(" # ".join(libraries))
+
+# Use the new line escape sequence to separate the following sentences. 'I am enjoying this challenge.'
+# I just wonder what is next.
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+# Use tab escape sequence to separate the following sentences. 'Name      Age     Country   City
+#Asabeneh  250     Finland   Helsinki'
+print("Name\tAge\tCountry\tCity")
+print("Asabeneh\t250\tFinland\tHelsinki")
