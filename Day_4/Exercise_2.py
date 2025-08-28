@@ -36,3 +36,14 @@ print(string.index('C'))
 string = 'Coding For All'
 print(string.index('F'))
 
+# Use rfind to determine the position of the last occurrence of l in Coding For All People.
+string = 'Coding For All People'
+print(string.rfind('l'))
+
+# Use rindex to find the position of the last occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+string = 'You cannot end a sentence with because because because is a conjunction'
+print(string.find('because'))
+
+#Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+string = 'You cannot end a sentence with because because because is a conjunction'
+print(string.rindex('because'))
