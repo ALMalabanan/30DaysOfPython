@@ -27,3 +27,12 @@ print(acronym)
 string = 'Coding For All'
 acronym = ''.join(word[0] for word in string.split())
 print(acronym)
+
+# Use index to determine the position of the first occurrence of C in Coding For All.
+string = 'Coding For All'
+print(string.index('C'))
+
+# Use index to determine the position of the first occurrence of F in Coding For All.
+string = 'Coding For All'
+print(string.index('F'))
+
