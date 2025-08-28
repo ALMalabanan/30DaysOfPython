@@ -54,6 +54,20 @@ start = string.find('because')
 end = string.rfind('because') + len('because')
 print(string[start:end])
 
-#Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-string = 'You cannot end a sentence with because because because is a conjunction'
-print(string.find('because'))
+#Does ''Coding For All' start with a substring Coding?
+string = 'Coding For All'
+print(string.startswith('Coding'))
+
+#Does 'Coding For All' end with a substring 'coding'?
+string = 'Coding For All'
+print(string.endswith('coding'))
+
+# '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+string = '   Coding For All      '
+print(string.strip())
+
+#Which one of the following variables return True when we use the method isidentifier():
+#30DaysOfPython
+#thirty_days_of_python
+print("30DaysOfPython".isidentifier())
+print("thirty_days_of_python".isidentifier())
