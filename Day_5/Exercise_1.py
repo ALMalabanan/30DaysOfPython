@@ -101,4 +101,13 @@ else:
     del it_companies[middle_index]
 print(it_companies)
 
-#
+# Remove the last IT company from the list
+it_companies.pop()
+print(it_companies)
+
+# Remove all IT companies from the list
+it_companies.clear()
+print(it_companies)
+
+#Destroy the IT companies list
+del it_companies
