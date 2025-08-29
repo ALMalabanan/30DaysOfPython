@@ -26,3 +26,7 @@ print('Median Age:', median_age)
 # Find the average age (sum of all items divided by their number )
 average_age = sum(ages) / len(ages)
 print('Average Age:', average_age)
+
+# Find the range of the ages (max minus min)
+age_range = max_age - min_age
+print('Age Range:', age_range)
