@@ -15,3 +15,33 @@ print('Web technologies:', web_techs)
 print('Number of web technologies:', len(web_techs))
 print('Countries:', countries)
 print('Number of countries:', len(countries))
+
+lst = ['Asabeneh', 250, True, {'country':'Finland', 'city':'Helsinki'}] # list containing different data types
+print('List:', lst)
+print('Number of items in the list:', len(lst))
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+first_fruit = fruits[0] # we are accessing the first item using its index
+print(first_fruit)      # banana
+second_fruit = fruits[1]
+print(second_fruit)     # orange
+last_fruit = fruits[3]
+print(last_fruit) # lemon
+# Last index
+last_index = len(fruits) - 1
+last_fruit = fruits[last_index]
+print(last_fruit) # lemon
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+first_fruit = fruits[-4]
+last_fruit = fruits[-1]
+second_last = fruits[-2]
+print(first_fruit)      # banana
+print(last_fruit)       # lemon
+print(second_last)      # mango
+
+lst = ['item1','item2','item3', 'item4', 'item5']
+first_item, second_item, *rest = lst
+print(first_item)     # item1
+print(second_item)    # item2
+print(rest)           # ['item4', 'item5']
