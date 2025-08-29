@@ -57,3 +57,10 @@ print(it_companies)
 # Join the it_companies with a string '#;  '
 joined_companies = '#;  '.join(it_companies)
 print(joined_companies)
+
+#  Check if a certain company exists in the it_companies list.
+company_to_check = 'Google'
+if company_to_check in it_companies:
+    print(f"{company_to_check} exists in the list.")
+else:
+    print(f"{company_to_check} does not exist in the list.")
