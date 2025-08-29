@@ -29,3 +29,8 @@ print(it_companies)
 
 # Print the number of companies in the list
 print("Number of IT companies:", len(it_companies))
+
+# Print the first, middle and last company
+print("First company:", it_companies[0])
+print("Middle company:", it_companies[len(it_companies) // 2])
+print("Last company:", it_companies[-1])
