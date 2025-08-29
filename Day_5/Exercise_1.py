@@ -48,3 +48,12 @@ middle_index = len(it_companies) // 2
 it_companies.insert(middle_index, 'Intel')
 print(it_companies)
 
+# Change one of the it_companies names to uppercase (IBM excluded!)
+for i in range(len(it_companies)):
+    if it_companies[i] != 'IBM':
+        it_companies[i] = it_companies[i].upper()
+print(it_companies)
+
+# Join the it_companies with a string '#;  '
+joined_companies = '#;  '.join(it_companies)
+print(joined_companies)
