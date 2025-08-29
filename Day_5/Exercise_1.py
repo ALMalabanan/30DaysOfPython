@@ -76,3 +76,29 @@ print(it_companies)
 # Slice out the first 3 companies from the list
 first_three_companies = it_companies[:3]
 print(first_three_companies)
+
+# Slice out the last 3 companies from the list
+last_three_companies = it_companies[-3:]
+print(last_three_companies)
+
+# Slice out the middle IT company or companies from the list
+middle_index = len(it_companies) // 2
+if len(it_companies) % 2 == 0:
+    middle_companies = it_companies[middle_index - 1:middle_index + 1]
+else:
+    middle_companies = [it_companies[middle_index]]
+print(middle_companies)
+
+# Remove the first IT company from the list
+it_companies.pop(0)
+print(it_companies)
+
+#Remove the middle IT company or companies from the list
+middle_index = len(it_companies) // 2
+if len(it_companies) % 2 == 0:
+    del it_companies[middle_index - 1:middle_index + 1]
+else:
+    del it_companies[middle_index]
+print(it_companies)
+
+#
