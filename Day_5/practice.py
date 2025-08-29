@@ -86,3 +86,4 @@ orange_and_lemon = fruits[1::2] # here we used a 3rd argument, step. It will tak
 print(orange_and_mango)
 print(orange_mango_lemon)
 print(orange_and_lemon)
+
