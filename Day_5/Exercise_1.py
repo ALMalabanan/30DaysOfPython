@@ -28,3 +28,4 @@ print(mixed_data_types)
 print(it_companies)
 
 # Print the number of companies in the list
+print("Number of IT companies:", len(it_companies))
