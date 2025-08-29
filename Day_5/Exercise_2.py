@@ -249,3 +249,10 @@ else:
     second_half = countries[len(countries) // 2 + 1:]
 print('First Half:', first_half)
 print('Second Half:', second_half)
+
+# ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
+first, second, third, *scandic_countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+print('First:', first)
+print('Second:', second)
+print('Third:', third)
+print('Scandic Countries:', scandic_countries)
