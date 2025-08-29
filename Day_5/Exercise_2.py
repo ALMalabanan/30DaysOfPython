@@ -30,3 +30,9 @@ print('Average Age:', average_age)
 # Find the range of the ages (max minus min)
 age_range = max_age - min_age
 print('Age Range:', age_range)
+
+# Compare the value of (min - average) and (max - average), use abs() method
+min_average_diff = abs(min_age - average_age)
+max_average_diff = abs(max_age - average_age)
+print('Min-Average Difference:', min_average_diff)
+print('Max-Average Difference:', max_average_diff)
