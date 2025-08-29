@@ -23,4 +23,6 @@ else:
     median_age = ages[len(ages) // 2]
 print('Median Age:', median_age)
 
-# 
+# Find the average age (sum of all items divided by their number )
+average_age = sum(ages) / len(ages)
+print('Average Age:', average_age)
