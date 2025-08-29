@@ -15,3 +15,12 @@ print('Max Age:', max_age)
 ages.append(min_age)
 ages.append(max_age)
 print('Ages after adding min and max:', ages)
+
+# Find the median age (one middle item or two middle items divided by two)
+if len(ages) % 2 == 0:
+    median_age = (ages[len(ages) // 2 - 1] + ages[len(ages) // 2]) / 2
+else:
+    median_age = ages[len(ages) // 2]
+print('Median Age:', median_age)
+
+# 
