@@ -10,3 +10,8 @@ max_age = ages[-1]
 print('Sorted Ages:', ages)
 print('Min Age:', min_age)
 print('Max Age:', max_age)
+
+# Add the min age and the max age again to the list
+ages.append(min_age)
+ages.append(max_age)
+print('Ages after adding min and max:', ages)
