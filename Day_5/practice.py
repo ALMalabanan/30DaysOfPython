@@ -132,7 +132,22 @@ print(fruits)  # ['orange', 'mango', 'banana']
 #Removing Items Using Pop
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.pop(1)
-print(fruits)       # ['banana', 'orange', 'mango']
+print(fruits)       
 
 fruits.pop(0)
-print(fruits)       # ['orange', 'mango']
+print(fruits)
+
+#Removing Items Using Del
+fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
+del fruits[0]
+print(fruits)       # ['orange', 'mango', 'lemon', 'kiwi', 'lime']
+del fruits[1]
+print(fruits)       # ['orange', 'lemon', 'kiwi', 'lime']
+del fruits[1:3]     # this deletes items between given indexes, so it does not delete the item with index 3!
+print(fruits)       # ['orange', 'lime']
+
+
+#Copying a List
+fruit = ['banana', 'orange', 'mango', 'lemon']
+fruit_copy = fruit.copy()
+print(fruit_copy)  # ['banana', 'orange', 'mango', 'lemon']
