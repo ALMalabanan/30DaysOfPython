@@ -23,3 +23,10 @@ siblings = family_members[:len(sisters) + len(brothers)]
 parents = family_members[len(siblings):]
 print('Siblings:', siblings)
 print('Parents:', parents)
+
+# Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
+fruits = ('apple', 'banana', 'cherry')
+vegetables = ('carrot', 'broccoli', 'spinach')
+animal_products = ('milk', 'cheese', 'yogurt')
+food_stuff_tp = fruits + vegetables + animal_products
+print('Food stuff:', food_stuff_tp)
