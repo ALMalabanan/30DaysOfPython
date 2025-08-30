@@ -30,3 +30,7 @@ vegetables = ('carrot', 'broccoli', 'spinach')
 animal_products = ('milk', 'cheese', 'yogurt')
 food_stuff_tp = fruits + vegetables + animal_products
 print('Food stuff:', food_stuff_tp)
+
+# Change the about food_stuff_tp tuple to a food_stuff_lt list
+food_stuff_lt = list(food_stuff_tp)
+print('Food stuff list:', food_stuff_lt)
