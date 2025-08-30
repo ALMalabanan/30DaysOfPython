@@ -33,3 +33,19 @@ print('All Fruits:', all_fruits)
 print('Orange and Mango:', orange_mango)
 print('Orange to the Rest:', orange_to_the_rest)
 
+#Range of Negative Indexes
+fruits = ('banana', 'orange', 'mango', 'lemon')
+all_fruits = fruits[-4:]    # all items
+orange_mango = fruits[-3:-1]  # doesn't include item at index 3
+orange_to_the_rest = fruits[-3:]
+print('All Fruits:', all_fruits)
+print('Orange and Mango:', orange_mango)
+print('Orange to the Rest:', orange_to_the_rest)
+
+#Changing Tuple to List
+fruits = ('banana', 'orange', 'mango', 'lemon')
+fruits = list(fruits)
+fruits[0] = 'apple'
+print(fruits)     # ['apple', 'orange', 'mango', 'lemon']
+fruits = tuple(fruits)
+print(fruits)     # ('apple', 'orange', 'mango', 'lemon')
