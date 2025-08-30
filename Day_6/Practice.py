@@ -14,3 +14,12 @@ last_fruit = fruits[-1]
 print('First Fruit:', first_fruit)
 print('Second Fruit:', second_fruit)
 print('Last Fruit:', last_fruit)
+
+#Slicing Tuples
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+all_items = tpl[0:4]         # all items
+all_items = tpl[0:]         # all items
+middle_two_items = tpl[1:3]  # does not include item at index 3
+print('All Items:', all_items)
+print('Middle Two Items:', middle_two_items)
