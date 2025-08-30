@@ -10,3 +10,6 @@ brothers = ('David', 'Ethan', 'Frank')
 # Join brothers and sisters tuples and assign it to siblings
 siblings = sisters + brothers
 print('Siblings:', siblings)
+
+# How many siblings do you have?
+print('Number of siblings:', len(siblings))
