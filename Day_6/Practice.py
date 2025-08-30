@@ -66,5 +66,5 @@ print('Joined Tuple:', tpl3)
 # Deleting Tuples
 fruits = ('banana', 'orange', 'mango', 'lemon')
 del fruits
-print(fruits) # NameError: name 'fruits' is not defined
+#print(fruits) # NameError: name 'fruits' is not defined
 
