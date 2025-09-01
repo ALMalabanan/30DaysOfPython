@@ -94,5 +94,10 @@ python = {'p', 'y', 't', 'h', 'o','n'}
 dragon = {'d', 'r', 'a', 'g', 'o','n'}
 print('Checking Subset:', python.issubset(dragon))     # False
 
-
+# Cheking the Difference Between Two Sets
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+print('Difference between st2 and st1:', st2.difference(st1)) # set()
+print('Difference between st1 and st2:', st1.difference(st2)) # {'item1', 'item4'} => st1\st2
 
