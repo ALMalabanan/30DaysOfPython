@@ -64,3 +64,17 @@ fruits = {'banana', 'orange', 'mango', 'lemon'}
 vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
 fruits.update(vegetables)
 print('Adding Vegetables to fruits:', fruits) # {'lemon', 'carrot', 'tomato', 'banana', 'mango', 'orange', 'cabbage', 'potato', 'onion'}
+
+# Finding Intersection Items
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item3', 'item2'}
+print('Finding Intersection Items:', st1.intersection(st2)) # {'item3', 'item2'}
+
+whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+even_numbers = {0, 2, 4, 6, 8, 10}
+print('Finding Intersection Items:', whole_numbers.intersection(even_numbers))
+
+python = {'p', 'y', 't', 'h', 'o','n'}
+dragon = {'d', 'r', 'a', 'g', 'o','n'}
+print('Finding Intersection Items:', python.intersection(dragon))     # {'o', 'n'}
