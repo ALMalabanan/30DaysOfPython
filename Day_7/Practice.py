@@ -28,3 +28,9 @@ fruits = {'banana', 'orange', 'mango', 'lemon'}
 vegetables = ('tomato', 'potato', 'cabbage','onion', 'carrot')
 fruits.update(vegetables)
 print('Adding Multiple Items using Update:', fruits)
+
+# Removing Items from a set
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.remove('item2')
+print(st)
