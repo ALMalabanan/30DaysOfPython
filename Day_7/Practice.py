@@ -9,3 +9,12 @@ print("Does set st contain item5? ", 'item5' in st) # Does set st contain item5?
 
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 print('Does set fruits contain mango? ', 'mango' in fruits ) # True
+
+# Adding Items to a set
+st = {'item1', 'item2', 'item3', 'item4'}
+st.add('item5')
+print(st)
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits.add('lime')
+print(fruits)
