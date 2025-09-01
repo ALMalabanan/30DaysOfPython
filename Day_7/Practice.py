@@ -33,4 +33,9 @@ print('Adding Multiple Items using Update:', fruits)
 # syntax
 st = {'item1', 'item2', 'item3', 'item4'}
 st.remove('item2')
-print(st)
+print('Removing Items from a set:', st)
+
+#Remove Random Item 
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits.pop()  # removes a random item from the set
+print('Removing Random Item:', fruits)
