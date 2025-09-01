@@ -87,8 +87,8 @@ print('Checking Super Set:', st1.issuperset(st2)) # True
 
 whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 even_numbers = {0, 2, 4, 6, 8, 10}
-print('Checking Subset:', whole_numbers.issubset(even_numbers)) # False, because it is a super set
-print('Checking Super Set:', whole_numbers.issuperset(even_numbers)) # True
+print('Checking if whole numbers is a Subset of even numbers:', whole_numbers.issubset(even_numbers)) # False, because it is a super set
+print('Checking if whole numbers is a Super Set of even numbers:', whole_numbers.issuperset(even_numbers)) # True
 
 python = {'p', 'y', 't', 'h', 'o','n'}
 dragon = {'d', 'r', 'a', 'g', 'o','n'}
