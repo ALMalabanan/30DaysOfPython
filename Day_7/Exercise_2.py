@@ -12,3 +12,6 @@ print('Is A subset of B:', A.issubset(B))
 # 4. Are A and B disjoint sets
 print('Are A and B disjoint sets:', A.isdisjoint(B))
 
+# 5. Join A with B and B with A
+print('Join A with B:', A.union(B))
+print('Join B with A:', B.union(A))
