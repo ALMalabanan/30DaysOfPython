@@ -78,3 +78,9 @@ print('Finding Intersection Items:', whole_numbers.intersection(even_numbers))
 python = {'p', 'y', 't', 'h', 'o','n'}
 dragon = {'d', 'r', 'a', 'g', 'o','n'}
 print('Finding Intersection Items:', python.intersection(dragon))     # {'o', 'n'}
+
+#C# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+print('Checking Subset:', st2.issubset(st1)) # True
+print('Checking Super Set:', st1.issuperset(st2)) # True
