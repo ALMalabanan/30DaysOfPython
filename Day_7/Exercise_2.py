@@ -15,3 +15,7 @@ print('Are A and B disjoint sets:', A.isdisjoint(B))
 # 5. Join A with B and B with A
 print('Join A with B:', A.union(B))
 print('Join B with A:', B.union(A))
+
+# 6. What is the symmetric difference between A and B
+print('Symmetric difference between A and B:', A.symmetric_difference(B))
+
