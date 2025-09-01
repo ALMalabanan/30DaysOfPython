@@ -6,3 +6,8 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 # 1. Find the length of the set it_companies
 print('Length of IT companies:', len(it_companies))
+
+# 2.  Add 'Twitter' to it_companies
+it_companies.add('Twitter')
+print('Updated IT companies:', it_companies)
+
