@@ -18,3 +18,13 @@ print(st)
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 fruits.add('lime')
 print(fruits)
+
+# Adding Multiple Items using Update()
+st = {'item1', 'item2', 'item3', 'item4'}
+st.update(['item5','item6','item7'])
+print('Adding Multiple Items using Update:' , st)
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+vegetables = ('tomato', 'potato', 'cabbage','onion', 'carrot')
+fruits.update(vegetables)
+print('Adding Multiple Items using Update:', fruits)
