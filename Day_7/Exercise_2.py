@@ -19,3 +19,6 @@ print('Join B with A:', B.union(A))
 # 6. What is the symmetric difference between A and B
 print('Symmetric difference between A and B:', A.symmetric_difference(B))
 
+# 7. Delete the sets completely
+del A
+del B
