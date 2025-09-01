@@ -95,9 +95,30 @@ dragon = {'d', 'r', 'a', 'g', 'o','n'}
 print('Checking Subset:', python.issubset(dragon))     # False
 
 # Cheking the Difference Between Two Sets
-# syntax
 st1 = {'item1', 'item2', 'item3', 'item4'}
 st2 = {'item2', 'item3'}
 print('Difference between st2 and st1:', st2.difference(st1)) # set()
 print('Difference between st1 and st2:', st1.difference(st2)) # {'item1', 'item4'} => st1\st2
 
+# Checking Symmetric Difference Between Two Sets
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3', 'item5', 'item6'}
+print('Symmetric difference between st1 and st2:', st1.symmetric_difference(st2)) # {'item1', 'item4', 'item5', 'item6'}
+
+whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+some_numbers = {1, 2, 3, 4, 5}
+print('Symmetric difference between whole numbers and some numbers:', whole_numbers.symmetric_difference(some_numbers)) # {0, 6, 7, 8, 9, 10}
+
+python = {'p', 'y', 't', 'h', 'o','n'}
+dragon = {'d', 'r', 'a', 'g', 'o','n'}
+print('Symmetric difference between python and dragon:', python.symmetric_difference(dragon))  # {'r', 't', 'p', 'y', 'g', 'a', 'd', 'h'}
+
+
+# Joining Sets
+even_numbers = {0, 2, 4 ,6, 8}
+odd_numbers = {1, 3, 5, 7, 9}
+even_numbers.isdisjoint(odd_numbers) # True, because no common item
+
+python = {'p', 'y', 't', 'h', 'o','n'}
+dragon = {'d', 'r', 'a', 'g', 'o','n'}
+print('Checking if python and dragon have no common items:', python.isdisjoint(dragon))  # False, there are common items {'o', 'n'}
