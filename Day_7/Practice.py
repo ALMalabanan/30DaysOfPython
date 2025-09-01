@@ -39,3 +39,13 @@ print('Removing Items from a set:', st)
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 fruits.pop()  # removes a random item from the set
 print('Removing Random Item:', fruits)
+
+# Clearing Items in a Set
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits.clear()
+print("Clearing Items in a set:", fruits) # set()
+
+# Deleting a Set
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+del fruits
+print("Deleting a set:", fruits) # NameError: name 'fruits' is not defined
