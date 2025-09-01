@@ -46,6 +46,11 @@ fruits.clear()
 print("Clearing Items in a set:", fruits) # set()
 
 # Deleting a Set
-fruits = {'banana', 'orange', 'mango', 'lemon'}
-del fruits
-print("Deleting a set:", fruits) # NameError: name 'fruits' is not defined
+#fruits = {'banana', 'orange', 'mango', 'lemon'}
+#del fruits
+#print("Deleting a set:", fruits) # NameError: name 'fruits' is not defined
+
+# Converting List to Set
+fruits = ['banana', 'orange', 'mango', 'lemon','orange', 'banana']
+fruits = set(fruits) # {'mango', 'lemon', 'banana', 'orange'}
+print('Converting List to Set:', fruits)
