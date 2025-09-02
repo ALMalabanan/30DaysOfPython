@@ -37,3 +37,11 @@ print('Type of skills:', type(skills))
 student['skills'].append('HTML')
 student['skills'].append('CSS')
 print('Updated skills:', student['skills'])
+
+# Get the dictionary keys as a list
+keys = list(student.keys())
+print('Keys:', keys)
+
+# Get the dictionary values as a list
+values = list(student.values())
+print('Values:', values)
