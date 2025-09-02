@@ -80,3 +80,36 @@ person = {
 person['first_name'] = 'Eyob'
 person['age'] = 252
 print('Modifying Items in a Dictionary:', person)
+
+# Checking Keys in a Dictionary
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print('key2' in dct) # True
+print('key5' in dct) # False
+
+# Removing Key and Value Pairs from a Dictionary
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct.pop('key1') # removes key1 item
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct.popitem() # removes the last item
+del dct['key2'] # removes key2 item
+print('Removing Key and Value Pairs from a Dictionary:', dct)
+
+# Example
+person = {
+    'first_name':'Asabeneh',
+    'last_name':'Yetayeh',
+    'age':250,
+    'country':'Finland',
+    'is_marred':True,
+    'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address':{
+        'street':'Space street',
+        'zipcode':'02210'
+    }
+    }
+person.pop('first_name')        # Removes the firstname item
+person.popitem()                # Removes the address item
+del person['is_marred']        # Removes the is_marred item
+print('Removing Key and Value Pairs from a Dictionary:', person)
