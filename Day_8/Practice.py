@@ -113,3 +113,10 @@ person.pop('first_name')        # Removes the firstname item
 person.popitem()                # Removes the address item
 del person['is_marred']        # Removes the is_marred item
 print('Removing Key and Value Pairs from a Dictionary:', person)
+
+# Changing Dictionary to a List of Items
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print('dct items:', dct.items()) # dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3'), ('key4', 'value4')])
+print('dct keys:', dct.keys())  # dict_keys(['key1', 'key2', 'key3', 'key4'])
+print('dct values:', dct.values())# dict_values(['value1', 'value2', 'value3', 'value4'])
