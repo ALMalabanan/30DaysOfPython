@@ -49,3 +49,7 @@ print('Values:', values)
 # Change the dictionary to a list of tuples using items() method
 items = list(student.items())
 print('Items:', items)
+
+# Delete one of the items in the dictionary
+del student['age']
+print('Updated student dictionary:', student)
