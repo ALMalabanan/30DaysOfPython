@@ -45,3 +45,7 @@ print('Keys:', keys)
 # Get the dictionary values as a list
 values = list(student.values())
 print('Values:', values)
+
+# Change the dictionary to a list of tuples using items() method
+items = list(student.items())
+print('Items:', items)
