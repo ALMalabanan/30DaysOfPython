@@ -53,3 +53,7 @@ print('Items:', items)
 # Delete one of the items in the dictionary
 del student['age']
 print('Updated student dictionary:', student)
+
+# Delete one of the dictionaries
+del student['address']
+print('Updated student dictionary:', student)
