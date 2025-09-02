@@ -23,5 +23,7 @@ student = {
         'zipcode': '10001'
     }
 }
-
-#
+ 
+# Get the length of the student dictionary
+length = len(student)
+print('Length of student dictionary:', length)
