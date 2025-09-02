@@ -27,3 +27,13 @@ student = {
 # Get the length of the student dictionary
 length = len(student)
 print('Length of student dictionary:', length)
+
+# Get the value of skills and check the data type, it should be a list
+skills = student.get('skills', [])
+print('Skills:', skills)
+print('Type of skills:', type(skills))
+
+# Modify the skills values by adding one or two skills
+student['skills'].append('HTML')
+student['skills'].append('CSS')
+print('Updated skills:', student['skills'])
