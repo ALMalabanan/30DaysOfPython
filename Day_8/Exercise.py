@@ -8,4 +8,20 @@ dog['breed'] = 'Labrador'
 dog['legs'] = 4
 dog['age'] = 5
 
-#Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
+# Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
+student = {
+    'first_name': 'John',
+    'last_name': 'Doe',
+    'gender': 'Male',
+    'age': 25,
+    'marital_status': 'Single',
+    'skills': ['Python', 'JavaScript', 'SQL'],
+    'country': 'USA',
+    'city': 'New York',
+    'address': {
+        'street': '123 Main St',
+        'zipcode': '10001'
+    }
+}
+
+#
