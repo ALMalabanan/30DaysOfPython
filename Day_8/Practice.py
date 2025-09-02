@@ -136,3 +136,15 @@ del dct
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 dct_copy = dct.copy() # {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 print('dct copy:', dct_copy)
+
+# Getting Dictionary Keys as a List
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+keys = dct.keys()
+print('dct keys:', keys)     # dict_keys(['key1', 'key2', 'key3', 'key4'])
+
+# Getting Dictionary Values as a List
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+values = dct.values()
+print('dct values:', values) # dict_values(['value1', 'value2', 'value3', 'value4'])
