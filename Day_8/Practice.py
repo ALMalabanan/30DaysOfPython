@@ -64,3 +64,19 @@ person['job_title'] = 'Instructor'
 person['skills'].append('HTML')
 print('Adding Items to a Dictionary:',person)
 
+# Modifying Items in a Dictionary
+person = {
+    'first_name':'Asabeneh',
+    'last_name':'Yetayeh',
+    'age':250,
+    'country':'Finland',
+    'is_marred':True,
+    'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address':{
+        'street':'Space street',
+        'zipcode':'02210'
+    }
+    }
+person['first_name'] = 'Eyob'
+person['age'] = 252
+print('Modifying Items in a Dictionary:', person)
