@@ -46,7 +46,7 @@ else:
     print('A is a negative number')
 
 # If and Or Logical Operators
-user = 'James'
+user = 'admin'
 access_level = 3
 if user == 'admin' or access_level >= 4:
         print('Access granted!')
