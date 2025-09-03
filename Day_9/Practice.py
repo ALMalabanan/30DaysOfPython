@@ -35,7 +35,7 @@ else:
     print('A is a negative number')
 
 # If Condition and Logical Operator
-a = 2
+a = -2
 if a > 0 and a % 2 == 0:
         print('A is an even and positive integer')
 elif a > 0 and a % 2 !=  0:
