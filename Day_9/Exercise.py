@@ -27,9 +27,9 @@ else:
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
 if a > b:
-    print("First Number is greater than second number")
+    print(a, "is greater than", b)
 elif a < b:
-    print("First Number is smaller than second number")
+    print(a, "is smaller than", b)
 else:
-    print("First Number is equal to second number")
+    print(a, "is equal to", b)
 
