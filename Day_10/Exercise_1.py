@@ -40,3 +40,8 @@ for i in range(8):
 # 10 x 10 = 100
 for i in range(11):
     print(f"{i} x {i} = {i*i}")
+
+# 6. Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+lst = ['Python', 'Numpy','Pandas','Django', 'Flask']
+for item in lst:
+    print(item)
