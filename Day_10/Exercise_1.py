@@ -45,3 +45,13 @@ for i in range(11):
 lst = ['Python', 'Numpy','Pandas','Django', 'Flask']
 for item in lst:
     print(item)
+
+# 7. Use for loop to iterate from 0 to 100 and print only even numbers
+for i in range(101):
+    if i % 2 == 0:
+        print('Even numbers from 0 to 100:', i)
+
+# 8. Use for loop to iterate from 0 to 100 and print only odd numbers
+for i in range(101):
+    if i % 2 != 0:
+        print('Odd numbers from 0 to 100:', i)
