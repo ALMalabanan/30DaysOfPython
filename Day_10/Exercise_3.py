@@ -197,4 +197,22 @@ countries = [
 
 # Extract all the countries containing the word 'land'
 countries_with_land = [country for country in countries if 'land' in country]
-print(countries_with_land)
+print('Countries with Land:', countries_with_land)
+
+# This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
+fruits = ['banana', 'orange', 'mango', 'lemon']
+reversed_fruits = []
+
+for i in range(len(fruits) - 1, -1, -1):
+    reversed_fruits.append(fruits[i])
+
+print('Reversed Fruits:', reversed_fruits)
+
+# Go to the data folder and use the countries_data.py file.
+# 1. What are the total number of languages in the data
+
+
+
+
+
+

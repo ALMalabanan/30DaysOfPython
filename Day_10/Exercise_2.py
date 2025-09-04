@@ -14,3 +14,4 @@ for i in range(101):
         odd_sum += i
 print("Sum of all even numbers from 0 to 100:", even_sum)
 print("Sum of all odd numbers from 0 to 100:", odd_sum)
+

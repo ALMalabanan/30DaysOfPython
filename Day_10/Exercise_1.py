@@ -55,3 +55,4 @@ for i in range(101):
 for i in range(101):
     if i % 2 != 0:
         print('Odd numbers from 0 to 100:', i)
+
